@@ -10,8 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps: 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Test code for errors
     run: php -1 index.php
     
+  # This workflow contains a single job called "build"
+  build:
+  
+  # The type of runner that the job will run on
+    runs-on: ubuntu-latest
