@@ -3,6 +3,9 @@ name: Kinsta CI Course Project
 on:
   push:
     branches: [ "main" ]
+  
+permissions:
+  contents: read
 
 jobs:
 
