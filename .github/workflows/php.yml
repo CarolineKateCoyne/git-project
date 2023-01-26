@@ -14,7 +14,6 @@ jobs:
     
     steps: 
     - name: checkout
-    uses: actions/checkout@v3
-    - name: Test code for errors
-    run: php -1 index.php
+    - uses: actions/checkout@v3
+    - run: php -1 index.php
     
