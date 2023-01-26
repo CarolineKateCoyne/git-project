@@ -1,2 +1,2 @@
-<?php echo "Hello World, using Git!"; ?>
+<?php echo "Hello World, let's test our CI setup using Git!"; ?>
 
